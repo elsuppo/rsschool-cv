@@ -38,7 +38,8 @@ My solutions on [CodeWars](https://www.codewars.com/users/elsuppo)
 
 
 ## Code Examples
-```function playPauseAudio() {
+```
+function playPauseAudio() {
     if (!isPlay) {
         buttonPlay.className = 'button button-pause';
         audio.play();
