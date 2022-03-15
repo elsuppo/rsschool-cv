@@ -34,3 +34,23 @@ Engineer
 
 ## Projects
 My projects on [GitHub](https://github.com/elsuppo)
+My solutions on [CodeWars](https://www.codewars.com/users/elsuppo)
+
+
+## Code Examples
+```function playPauseAudio() {
+    if (!isPlay) {
+        buttonPlay.className = 'button button-pause';
+        audio.play();
+        cover.classList.add('playing');
+        isPlay = true;
+    } else {
+        buttonPlay.className = 'button button-play';
+        audio.pause();
+        cover.classList.remove('playing');
+        isPlay = false;
+    };
+};
+
+buttonPlay.addEventListener('click', playPauseAudio);
+```
