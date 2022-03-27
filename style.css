@@ -133,6 +133,11 @@ a:visited {
   margin-right: 40px;
 }
 
+.photo-img {
+  width: 200px;
+  height: 200px;
+}
+
 .info__contacts {
   display: flex;
   flex-direction: column;
@@ -326,3 +331,16 @@ a:visited {
 }
 
 /* END SECTION FOOTER */
+
+@media (max-width: 1100px) {
+  .section-info {
+    flex-direction: column;
+  }
+
+  .info__about {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
