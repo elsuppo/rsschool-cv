@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Suponev</title>
     <link rel="icon" href="./assets/img/favicon.ico">
+    <!-- <link rel="stylesheet"
+    href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -15,7 +20,7 @@
                 <div class="header-logo">
                     <a href="#"><img src="./assets/svg/logo.svg" alt="Logo" class="logo-svg"></a>
                 </div>
-                <nav>
+                <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#expirience" class="nav-link">Experience</a></li>
@@ -25,6 +30,11 @@
                         <li class="nav-item"><a href="#code-examples" class="nav-link">Code Examples</a></li>
                     </ul>
                 </nav>
+                <div class="burger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             </div>
         </div>
     </header>
@@ -44,7 +54,8 @@
                     </div>
                 </div>  
                 <div class="info__contacts">
-                    <span class="gray-text">Located in Russia, Saint Petersburg</span>
+                    <span class="gray-text">Located in Russia</span> 
+                    <span class="gray-text">Saint Petersburg</span>
                     <ul>
                         <li><a href="https://t.me/andrewsupo" target="_blank">Telegram</a></li>
                         <li><a href="mailto:andrew.suponev@gmail.com" target="_blank">Send email</a></li>
@@ -231,7 +242,7 @@
             <section id="code-examples">
                 <h2 class="title-section">Code Examples</h2>
                 <div class="code-block">
-                    <pre><code>function playPauseAudio() {
+                    <pre><code>function playPauseAudio() { 
     if (!isPlay) {
         buttonPlay.className = 'button button-pause';
         audio.play();
@@ -263,5 +274,6 @@ buttonPlay.addEventListener('click', playPauseAudio);</code></pre><br><br>
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
