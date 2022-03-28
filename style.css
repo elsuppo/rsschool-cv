@@ -314,10 +314,6 @@ a:visited {
   padding: 24px;
 }
 
-/* .code-block code {
-  background: inherit;
-} */
-
 .code-block a {
   text-decoration: none;
   color: var(--color-link);
@@ -391,7 +387,7 @@ a:visited {
     .burger {
       display: block;
       position: relative;
-      width: 50px;
+      width: 44px;
       height: 28px;
       z-index: 11;
     }
@@ -484,6 +480,10 @@ a:visited {
 
   .project__cover {
     width: 100%;
+  }
+
+  .code-block {
+    padding: 8px;
   }
 
   pre {
