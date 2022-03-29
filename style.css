@@ -203,7 +203,7 @@ a:visited {
   border: 1px solid var(--color-border-card);
 }
 
-.sertificate_icon {
+.btn-pdf_icon {
   display: block;
   width: 48px;
   height: 48px;
@@ -507,5 +507,3 @@ a:visited {
     white-space: pre-wrap;
   }
 }
-
-

@@ -1,3 +1,4 @@
+// burger menu
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav');
 const navItems = document.querySelectorAll('.nav-item');
