@@ -48,7 +48,11 @@ body {
 
 .title-section {
   font-weight: 500;
-  margin: 88px 0 24px;
+  margin-bottom: 24px;
+}
+
+section {
+  padding-top: 88px;
 }
 
 .gray-text {
